@@ -1,0 +1,41 @@
+h1 {
+  text-align: center;
+  color: red;
+  font-weight: 900;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#container {
+  max-width: 1100px;
+  margin-inline: auto; /* left and right */
+  margin-block: 0.5rem; /* top and bottom */
+  position: relative;
+  border: 2px solid transparent;
+  background-color: transparent;
+  border-radius: 0.5rem;
+}
+.cell_class {
+  margin: 2px;
+  display: inline-block;
+  width: 9.4%;
+  aspect-ratio: 1/1;
+  background-image: #ffffff;
+  border: 1.2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+}
+.cell_class h3 {
+  text-align: center;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 26px;
+  font-weight: 300;
+}
+
+#butt {
+  display: block;
+  margin: 4px;
+  background-color: #d16ba5;
+  margin-left: auto;
+  margin-right: auto;
+}
